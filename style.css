@@ -1,0 +1,578 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+a{
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.container{
+    width: 1284px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerNav{
+    width: 536px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerButton{
+    width: 152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerText{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.navText{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.buttonIntro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 216px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    background: #FFCCCC;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.textIntro{
+    display: flex;
+    width: 486px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+.descriptionIntro{
+    width: 342px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #797979;
+    margin-bottom: 30px;
+}
+
+.cartbtnIntro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 175px;
+    height: 59px;
+    background: #FFCCCC;
+    border-radius: 8px;
+}
+
+.cartbtntextIntro{
+    text-align: center;
+    width: 113px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.imageIntro{
+    display: flex;
+    height: 657px;
+}
+
+.detalisIntro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 0px 20px;
+    gap: 28px;
+    width: 244px;
+    height: 346px;
+    margin-top: 80px;
+    margin-left: 50px;
+    background: #FFF8E7;
+    border-radius: 8px;
+
+}
+
+.headerDetalis{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.priceDetalis{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 51px;
+    color: #000000;
+}
+
+.sizeDetalis{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.ratingDetalis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 114.98px;
+    height: 14.89px;
+}
+
+.navbtnDetalis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 103px;
+    height: 41px;
+}
+
+.describe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 200px;
+    margin-top: 150px;
+}
+
+.headerDesc{
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #171717;
+}
+
+.specDesc{
+    height: 90px;
+    font-family: 'Poppins';
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #797979;
+}
+
+.perfume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 460px;
+    margin-top: 100px;
+}
+
+.perfumeIcon{
+    display: flex;
+    width: 255px;
+    height: 460px;
+}
+
+.perfumeDesc{
+    width: 389px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+}
+
+.perfumeHeader{
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 59px;
+    margin-bottom: 25px;
+}
+
+.perfumeDetalis{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #797979;
+}
+
+.boardBack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+    height: 219px;
+    background: #7CCDE1;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boardContainer{
+    display: flex;
+    flex-direction: row;;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 380px;
+    width: 1000px;
+    height: 139px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13px;
+    width: 474px;
+    height: 139px;  
+}
+
+.boardHead{
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    color: #171717;
+}
+
+.boardDesc{
+    width: 520px;
+    height: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #797979;
+}
+
+.boardBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 146px;
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 9px 8px 41px rgba(0, 0, 0, 0.21);
+    border-radius: 500px;
+}
+
+.boardBtnText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3F3F3F;
+}
+
+.eclipse1{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 394px;
+    top: 1880px;
+}
+
+.eclipse2{   
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 1000px;
+    top: 2062px;;
+}
+
+.eclipse3{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 1180px;
+    top: 1890px;
+}
+
+.perfumeBoardIcon{
+    left: 1180px;
+    top: 1920px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 97px;
+    width: 1067px;
+    height: 208px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    }
+.footerHead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 306px;
+    height: 201px;
+}
+
+.footerText{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 108px;
+}
+
+.footerHeadText{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.footerDesc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #797979;
+    margin-top: 12px;
+}
+
+.btnMail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 67px;
+    width: 267px;
+    height: 52px;
+    background: #353535;
+}
+
+.btnMailText{
+    width: 101px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #DEDEDE;
+}
+
+.btnMailOpen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 56px;
+    height: 34px;
+}
+
+.aboutTab{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 78px;
+    height: 208px;
+}
+
+.aboutHead{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #272727;
+}
+
+.aboutText{
+    width: 54px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+
+.privacyTab{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 78px;
+    height: 208px;
+}
+
+.privacyHead{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #272727;
+}
+
+.privacyText{
+    width: 54px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+
+.contactTab{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23px;
+    width: 208px;
+    height: 158.19px;
+}
+
+.contactHead{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #272727;
+}
+
+.contactMail{
+    width: 208px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6C6C6C;
+}
+
+.contactSocials{
+    display: flex;
+}
+
+.googleImg{
+    margin-left: 30px;
+}
+
+.lineContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1067px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerLine{
+    position: absolute;
+    width: 1067px;
+    height: 0px;
+    border: 1px solid #C4C4C4;
+    transform: rotate(180deg);
+    }
